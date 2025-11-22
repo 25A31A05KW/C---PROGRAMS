@@ -1,0 +1,6 @@
+#include<stdio.h> //This allows us to use input and output functions standardly
+int main() // main function -> mandatory
+{
+   printf("hello world!"); // body of the program
+   return 0;
+}
