@@ -1,0 +1,12 @@
+// DIVISON AND MODULA USAGE IN C
+#include<stdio.h>
+int main()
+{
+    float a,b,c,d;
+    printf("enter the value of a and b : ");
+    scanf("%d%d"'&a,&b);
+    c = a/b; // f IS USED AS FORMAT SPECIFIER HERE TO GET THE OUTPUT INCLUDING DECIMAL POINT VALUES
+    d = a%b; // GIVES US THE REMAINDER
+    printf("division = %f\n",c);
+    printf("modula = %f",d);
+}
