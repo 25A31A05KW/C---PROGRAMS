@@ -1,0 +1,11 @@
+// AREA OF RECTANGLE 
+#include<stdio.h>
+int main() {
+    float length,breadth,areaOfRectangle;
+    printf("the value of the length : ");
+    scanf("%f",&length);
+    printf("the value of the breadth : ");
+    scanf("%f",&breadth);
+    areaOfRectangle = length * breadth;
+    printf("area of the rectangle is %f",areaOfRectangle);
+}
